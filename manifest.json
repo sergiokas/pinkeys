@@ -2,8 +2,8 @@
 	"name": "Pinkeys",
 	"version": "0.1.0",
 	"manifest_version": 2,
+	"minimum_chrome_version": "25.0",
 	"description": "Add a keyboard shortcut to pin and unpin tabs",
-	//"options_page": "options.html",
 	"icons" : {
 		"16" : "images/icon16.png",
 		"48" : "images/icon48.png",
@@ -11,18 +11,19 @@
 	},
 	"background": {
 		"scripts": [
-			"background.js"
+			"background.js",
+			"install.js"
 		],
 		"persistent": false
 	},
 	"commands" : {
-		"toggle-pin" : {
+		"pinkeys-toggle-pin" : {
 			"suggested_key": { 
 				"default": "Ctrl+Shift+E",
 				"mac": "Command+Shift+E"
 			},
-			"description": "Toggle the pin status on the current tab"
+			"description": "Pin or unpin the current tab"
 		}
 	},
-	"permissions": ["tabs"]
+	"permissions": ["tabs", "notifications"]
 }
