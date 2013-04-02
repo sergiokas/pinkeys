@@ -2,7 +2,7 @@
  * Listen for toggle pin commands
  */
 chrome.commands.onCommand.addListener(function(command) {
-	if(command === "toggle-pin") {
+	if(command === "pinkeys-toggle-pin") {
 		// Look for the currently selected tab (non-deprecated method)
 		chrome.tabs.query(
 			{currentWindow: true, active : true},
