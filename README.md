@@ -1,4 +1,5 @@
-pinkeys
+Pinkeys
 =======
 
-Add a keyboard shortcut to pin and unpin Google Chrome tabs.
+Add a keyboard shortcut (Ctrl+Shift+E, or Command+Shift+E on Mac) to pin and unpin Chrome tabs.
+
