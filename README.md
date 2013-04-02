@@ -1,5 +1,7 @@
 Pinkeys
 =======
 
-Add a keyboard shortcut (Ctrl+Shift+E, or Command+Shift+E on Mac) to pin and unpin Chrome tabs.
+Chrome extension to add a keyboard shortcut to pin and unpin tabs.
+
+Use Ctrl+Shift+E on Windows and Linux, and Command+Shift+E on Mac.
 
