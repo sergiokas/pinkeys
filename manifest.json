@@ -20,6 +20,7 @@
 		"pinkeys-toggle-pin" : {
 			"suggested_key": { 
 				"default": "Ctrl+Shift+E",
+				"windows": "Ctrl+Shift+E",
 				"mac": "Command+Shift+E"
 			},
 			"description": "Pin or unpin the current tab"
